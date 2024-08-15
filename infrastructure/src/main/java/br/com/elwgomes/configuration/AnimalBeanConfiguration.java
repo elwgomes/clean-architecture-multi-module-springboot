@@ -14,6 +14,7 @@ import br.com.elwgomes.usecase.getAllAnimals.GetAllAnimalsHandler;
 @Configuration
 public class AnimalBeanConfiguration {
 
+  // animal spi
   @Bean
   AnimalDatabasePort animalDatabasePort(AnimalRepository animalRepository) {
     return new AnimalDatabaseAdapter(animalRepository);
