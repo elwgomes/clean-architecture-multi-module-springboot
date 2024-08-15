@@ -1,0 +1,10 @@
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/configuration/AnimalBeanConfiguration.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/controller/animal/AnimalController.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/controller/animal/request/AnimalRequest.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/controller/animal/response/AnimalResponse.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/entity/AnimalEntity.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/exception/handler/GlobalExceptionHandler.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/exception/response/ErrorResponse.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/mapper/AnimalMapper.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/persistence/AnimalPersistence.java
+/home/skxl/work/java/clean-architecture-multi-module/infrastructure/src/main/java/br/com/elwgomes/repository/AnimalRepositoryImpl.java

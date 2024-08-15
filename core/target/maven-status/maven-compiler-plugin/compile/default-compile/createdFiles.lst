@@ -1,0 +1,8 @@
+br/com/elwgomes/usecase/createAnimal/CreateAnimalHandler.class
+br/com/elwgomes/ports/contract/createAnimal/CreateAnimalCommand.class
+br/com/elwgomes/domain/AnimalDomain.class
+br/com/elwgomes/ports/contract/getAllAnimals/GetAllAnimalsCommand.class
+br/com/elwgomes/exception/InvalidAnimalDataException.class
+br/com/elwgomes/ports/spi/AnimalDatabasePort.class
+br/com/elwgomes/domain/AnimalDomain$AnimalDomainBuilder.class
+br/com/elwgomes/usecase/getAllAnimals/GetAllAnimalsHandler.class

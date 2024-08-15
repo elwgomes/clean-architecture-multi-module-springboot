@@ -1,0 +1,7 @@
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/domain/AnimalDomain.java
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/exception/InvalidAnimalDataException.java
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/ports/contract/createAnimal/CreateAnimalCommand.java
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/ports/contract/getAllAnimals/GetAllAnimalsCommand.java
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/ports/spi/AnimalDatabasePort.java
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/usecase/createAnimal/CreateAnimalHandler.java
+/home/skxl/work/java/clean-architecture-multi-module/core/src/main/java/br/com/elwgomes/usecase/getAllAnimals/GetAllAnimalsHandler.java

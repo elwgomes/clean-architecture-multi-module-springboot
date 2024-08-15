@@ -1,0 +1,13 @@
+br/com/elwgomes/controller/animal/response/AnimalResponse.class
+br/com/elwgomes/mapper/AnimalMapper.class
+br/com/elwgomes/controller/animal/AnimalController.class
+br/com/elwgomes/persistence/AnimalPersistence.class
+br/com/elwgomes/controller/animal/request/AnimalRequest.class
+br/com/elwgomes/mapper/AnimalMapperImpl.class
+br/com/elwgomes/entity/AnimalEntity.class
+br/com/elwgomes/controller/animal/request/AnimalRequest$AnimalRequestBuilder.class
+br/com/elwgomes/configuration/AnimalBeanConfiguration.class
+br/com/elwgomes/exception/response/ErrorResponse.class
+br/com/elwgomes/repository/AnimalRepositoryImpl.class
+br/com/elwgomes/controller/animal/response/AnimalResponse$AnimalResponseBuilder.class
+br/com/elwgomes/exception/handler/GlobalExceptionHandler.class
