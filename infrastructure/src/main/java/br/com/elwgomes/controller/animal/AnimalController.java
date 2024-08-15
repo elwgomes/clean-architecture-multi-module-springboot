@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.elwgomes.controller.animal.request.AnimalRequest;
 import br.com.elwgomes.controller.animal.response.AnimalResponse;
-import br.com.elwgomes.domain.AnimalDomain;
+import br.com.elwgomes.exception.InvalidAnimalDataException;
 import br.com.elwgomes.mapper.AnimalMapper;
 import br.com.elwgomes.ports.contract.createAnimal.CreateAnimalCommand;
 import br.com.elwgomes.ports.contract.getAllAnimals.GetAllAnimalsCommand;
@@ -30,7 +30,8 @@ public class AnimalController {
   }
 
   @PostMapping
-  public ResponseEntity<AnimalResponse> postMethodName(@RequestBody AnimalRequest request) {
+  public ResponseEntity<AnimalResponse> postMethodName(@RequestBody AnimalRequest request)
+      throws InvalidAnimalDataException {
     return ResponseEntity.status(HttpStatus.CREATED)
         .body(AnimalMapper.INSTANCE
             .domainToResponse(createAnimalCommand.execute(AnimalMapper.INSTANCE.requestToDomain(request))));
