@@ -9,4 +9,5 @@ import lombok.Setter;
 @Builder
 public class AnimalResponse {
   private String name;
+  private String tutor;
 }

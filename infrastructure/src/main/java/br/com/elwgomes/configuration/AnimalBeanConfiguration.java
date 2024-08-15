@@ -5,9 +5,11 @@ import org.springframework.context.annotation.Configuration;
 
 import br.com.elwgomes.adapter.AnimalDatabaseAdapter;
 import br.com.elwgomes.ports.contract.createAnimal.CreateAnimalCommand;
+import br.com.elwgomes.ports.contract.getAllAnimals.GetAllAnimalsCommand;
 import br.com.elwgomes.ports.spi.AnimalDatabasePort;
 import br.com.elwgomes.repository.AnimalRepository;
 import br.com.elwgomes.usecase.createAnimal.CreateAnimalHandler;
+import br.com.elwgomes.usecase.getAllAnimals.GetAllAnimalsHandler;
 
 @Configuration
 public class AnimalBeanConfiguration {
@@ -20,6 +22,11 @@ public class AnimalBeanConfiguration {
   @Bean
   CreateAnimalCommand createAnimalCommand(AnimalDatabasePort animalDatabasePort) {
     return new CreateAnimalHandler(animalDatabasePort);
+  }
+
+  @Bean
+  GetAllAnimalsCommand getAllAnimalsCommand(AnimalDatabasePort animalDatabasePort) {
+    return new GetAllAnimalsHandler(animalDatabasePort);
   }
 
 }

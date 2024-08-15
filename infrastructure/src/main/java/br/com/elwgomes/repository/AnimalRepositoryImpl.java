@@ -1,5 +1,7 @@
 package br.com.elwgomes.repository;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -17,4 +19,10 @@ public class AnimalRepositoryImpl implements AnimalRepository {
   public AnimalDomain createAnimal(AnimalDomain animalDomain) {
     return AnimalMapper.INSTANCE.entityToDomain(persistence.save(AnimalMapper.INSTANCE.domainToEntity(animalDomain)));
   }
+
+  @Override
+  public List<AnimalDomain> getAllAnimals() {
+    return AnimalMapper.INSTANCE.entityListToDomainList(persistence.findAll());
+  }
+
 }
